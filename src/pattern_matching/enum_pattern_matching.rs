@@ -8,6 +8,7 @@
  * -----
  */
 
+#[allow(dead_code)]
 #[derive(Debug)]
 pub enum Coin {
     Penny(UsState),
@@ -16,6 +17,7 @@ pub enum Coin {
     Quarter(UsState),
 }
 
+#[allow(dead_code)]
 #[derive(Debug)]
 pub enum UsState {
     Alabama,

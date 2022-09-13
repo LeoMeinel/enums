@@ -16,6 +16,7 @@ pub enum Message {
     ChangeColor(i32, i32, i32),
 }
 
+#[allow(dead_code)]
 impl Message {
     fn some_function() {
         println!("Let's Get Rusty!")
